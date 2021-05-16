@@ -55,7 +55,7 @@ export default function Home() {
 
   return (
     <Container>
-        <img src={MiaLogo} height="70" className="miaLogo"/>
+        <img src={MiaLogo} height="70" className="miaLogo" alt="mia logo"/>
       {userLocation.latitude !== 0 && (
         <MapContainer
           center={[userLocation.latitude, userLocation.longitude]}
